@@ -5,27 +5,31 @@ A beginner-friendly Data Analyst portfolio project demonstrating data validation
 
 **Important:** `data/retail_sales_sample.csv` is a synthetic practice dataset generated for this project. Do not describe it as real company/customer data.
 
-## Tech stack
+## Tech Stack
 - Python
 - pandas
 - matplotlib
 - SQLite / SQL
 - CSV data
 
-## Run locally
+## Run Locally
 1. Install Python 3.10+.
 2. Open a terminal in this folder.
 3. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
-4. Run:
+
+4. Run the analysis:
+
    ```bash
    python analysis.py
    ```
+
 5. See the generated CSV summaries and PNG charts in `outputs/`.
 
-## Analysis performed
+## Analysis Performed
 - Data types and missing-value checks
 - Duplicate order ID check
 - Invalid quantity, price, discount, and revenue checks
@@ -37,5 +41,14 @@ A beginner-friendly Data Analyst portfolio project demonstrating data validation
 ## SQL
 Open `sql/analysis_queries.sql` for the equivalent queries. The Python script also creates `outputs/retail_sales.db`.
 
-## Before putting this on your resume
-Run the project yourself, inspect the outputs, understand each transformation, and write 2–3 findings based on the actual generated results. Since this dataset is synthetic, label it as a practice/personal project. Do not claim business impact or real-world company experience.
+## Key Results from the Sample Dataset
+- **Rows analyzed:** 300
+- **Rows retained after validation:** 300
+- **Total recorded revenue:** 29,750.02
+- **Highest-revenue category:** Home Office
+- **Highest-revenue region:** West
+
+These findings are based on synthetic practice data and do not represent a real business.
+
+## Before Putting This on Your Resume
+Run the project yourself, inspect the outputs, understand each transformation, and be prepared to explain your findings. Label this as a personal/practice project. Do not claim real-world company experience or business impact.
