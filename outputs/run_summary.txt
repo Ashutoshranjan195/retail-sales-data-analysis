@@ -1,0 +1,8 @@
+RETAIL SALES ANALYSIS — RUN SUMMARY
+Rows loaded: 300
+Rows retained after validation: 300
+Total recorded revenue: 29750.02
+Highest-revenue category in this sample: Home Office (15921.50)
+Highest-revenue region in this sample: West (9478.92)
+
+Caution: the dataset is synthetic. Findings are for practice only and do not represent a real business.
